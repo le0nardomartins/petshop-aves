@@ -9,8 +9,8 @@ export const products: Product[] = [
     price: 180.00,
     originalPrice: 220.00,
     images: [
-      '/public/images/belga_1.png',
-      '/public/images/belga_2.png'
+      '/belga_1.png',
+      '/belga_2.png'
     ],
     category: 'canários',
     age: '4-6 meses',
@@ -27,8 +27,8 @@ export const products: Product[] = [
     description: 'Calopsita lutino com linda crista e personalidade cativante. Muito inteligente e sociável.',
     price: 350.00,
     images: [
-      '/public/images/lutino_1.png',
-      '/public/images/lutino_2.png'
+      '/lutino_1.png',
+      '/lutino_2.png'
     ],
     category: 'calopsitas',
     age: '6-8 meses',
@@ -45,8 +45,8 @@ export const products: Product[] = [
     description: 'Papagaio verdadeiro brasileiro, excelente falador e companheiro. Muito inteligente e longevo.',
     price: 1200.00,
     images: [
-      '/public/images/verdadeiro_1.png',
-      '/public/images/verdadeiro_2.png'
+      '/verdadeiro_1.png',
+      '/verdadeiro_2.png'
     ],
     category: 'papagaios',
     age: '8-12 meses',
@@ -63,8 +63,8 @@ export const products: Product[] = [
     description: 'Periquito australiano azul, alegre e brincalhão. Ótimo para iniciantes e famílias.',
     price: 120.00,
     images: [
-      '/public/images/periquito_1.png',
-      '/public/images/periquito_2.png'
+      '/periquito_1.png',
+      '/periquito_2.png'
     ],
     category: 'periquitos',
     age: '3-5 meses',
@@ -81,8 +81,8 @@ export const products: Product[] = [
     description: 'Agapornis fischer, conhecido como "pássaro do amor". Colorido e cheio de personalidade.',
     price: 280.00,
     images: [
-      '/public/images/agapornis_1.png',
-      '/public/images/agapornis_2.png'
+      '/agapornis_1.png',
+      '/agapornis_2.png'
     ],
     category: 'pássaros-exóticos',
     age: '4-6 meses',
@@ -99,8 +99,8 @@ export const products: Product[] = [
     description: 'Canário do reino, conhecido por seu porte elegante e canto excepcional.',
     price: 250.00,
     images: [
-      '/public/images/reino_1.png',
-      '/public/images/reino_2.png'
+      '/reino_1.png',
+      '/reino_2.png'
     ],
     category: 'canários',
     age: '5-7 meses',
