@@ -1,54 +1,61 @@
-# React + TypeScript + Vite
+# 🦜 Recanto das Asas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
 
-Currently, two official plugins are available:
+O Recanto das Asas é um projeto de loja virtual especializada em aves, desenvolvida com tecnologias modernas para proporcionar uma experiência de compra agradável e intuitiva. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ✨ Características Principais
 
-## Expanding the ESLint configuration
+- 🎨 Interface moderna e responsiva
+- 🔍 Busca inteligente de produtos
+- ❤️ Lista de favoritos
+- 🛒 Carrinho de compras
+- 💫 Animações suaves com Framer Motion
+- 🎯 Filtros por categoria
+- ⭐ Sistema de avaliações
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🛠️ Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **React** - Biblioteca JavaScript para construção de interfaces
+- **TypeScript** - Adiciona tipagem estática ao JavaScript
+- **Vite** - Build tool e bundler moderno
+- **Tailwind CSS** - Framework CSS utilitário
+- **Framer Motion** - Biblioteca para animações
+- **Lucide React** - Ícones modernos e customizáveis
+
+## 📁 Estrutura do Projeto
+
+```
+recanto-das-asas/
+├── public/          # Arquivos estáticos (imagens, favicon)
+├── src/
+│   ├── components/  # Componentes React
+│   ├── data/       # Dados estáticos
+│   ├── hooks/      # Custom hooks
+│   ├── types/      # Definições de tipos TypeScript
+│   └── main.tsx    # Ponto de entrada da aplicação
+├── package.json
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌟 Funcionalidades
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Catálogo de Produtos**: Visualização detalhada de cada ave disponível
+- **Filtragem**: Busca e filtros por categoria, preço e características
+- **Favoritos**: Sistema de lista de desejos
+- **Carrinho**: Gestão completa de carrinho de compras
+- **Responsividade**: Interface adaptável para todos os dispositivos
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📱 Layout Responsivo
+
+O projeto foi desenvolvido seguindo o conceito de Mobile First, garantindo uma experiência consistente em diferentes dispositivos:
+
+- 📱 Mobile (320px+)
+- 📱 Tablet (768px+)
+- 💻 Desktop (1024px+)
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
