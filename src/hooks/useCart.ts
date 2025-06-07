@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import type { Cart, CartItem, Product } from '../types';
+import type { Cart, Product } from '../types';
 
 export const useCart = () => {
   const [cart, setCart] = useState<Cart>({ items: [], total: 0 });

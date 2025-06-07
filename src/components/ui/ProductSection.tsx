@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Filter, Grid, List } from 'lucide-react';
+import { Filter } from 'lucide-react';
 import { ProductCard } from './ProductCard';
 import { products, categories } from '../../data/products';
 import type { Product } from '../../types';

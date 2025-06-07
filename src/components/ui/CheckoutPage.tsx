@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, CreditCard, MapPin, User, Phone, Mail, Lock, Check } from 'lucide-react';
+import { X, CreditCard, MapPin, User, Lock, Check } from 'lucide-react';
 import type { Cart } from '../../types';
 
 interface CheckoutPageProps {
